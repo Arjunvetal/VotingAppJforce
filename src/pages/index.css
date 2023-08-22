@@ -1,0 +1,36 @@
+/* Navbar Styles */
+.navbar {
+    background-color: #333; /* Background color for the navbar */
+    color: white; /* Text color */
+    padding: 10px 0; /* Add some padding for better spacing */
+  }
+  
+  .navbar-list {
+    list-style: none;
+    padding: 0;
+    display: flex; /* Make the list items display horizontally */
+    justify-content: space-around; /* Distribute items evenly horizontally */
+  }
+  
+  .navbar-list li {
+    margin: 0;
+  }
+  
+  .navbar-list a {
+    text-decoration: none;
+    color: white; /* Text color for links */
+  }
+  
+  .navbar-list button {
+    background-color: #ff5733; /* Color for the logout button */
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .navbar-list button:hover {
+    background-color: #ff3319; /* Color when hovering over the logout button */
+  }
+  

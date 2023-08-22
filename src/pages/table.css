@@ -1,0 +1,28 @@
+/* CSS Styles */
+.center-table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* This centers it vertically */
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 80%; /* Adjust the width as needed */
+    margin-top: 20px; /* Add space between the header and the table */
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  th, td {
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
